@@ -15,7 +15,7 @@ A WebView is like a minimal browser, but for non-browsers that display web conte
 
 ## Credits
 
-Bromite itself is created by and copyright of the developers of the [Bromite project](https://github.com/bromite/bromite) (of which I'm currently unassociated with).
+Bromite itself is created by and copyright of the developers of the [Bromite project](https://github.com/bromite/bromite).
 
 Thanks to @alexiacortez (me) for the module
 
