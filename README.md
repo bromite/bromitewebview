@@ -1,6 +1,10 @@
+# Repository information
+
+This repository contains the upstream official fork of the Bromite Systemless Webview.
+
+This module was created and is still maintained by @alexa-v2 on the [corresponding Magisk module repository](https://github.com/Magisk-Modules-Repo/bromitewebview); that is however not an official Bromite project.
+
 # Bromite Systemless Webview
-	
-	FOR ANY PROBLEMS WITH INSTALLATION SHOULD BE REPORTED WITH LOGS AT OUR TELEGRAM GROUP BELOW
 	
 This module allows you to install [Bromite SystemWebView](https://www.bromite.org/system_web_view) systemless-ly.
 Most useful features of Bromite are that you can block ads, trackers and resist fingerprinting; see the full features list [here](https://github.com/bromite/bromite/blob/master/README.md#features)
@@ -17,33 +21,17 @@ A WebView is like a minimal browser, but for non-browsers that display web conte
 
 Bromite itself is created by and copyright of the developers of the [Bromite project](https://github.com/bromite/bromite) (of which I'm currently unassociated with).
 
-Thanks to @alexiacortez (me) for the module
+Thanks to @alexa-v2 (me) for the module
 
 Thanks to @neekless for parts of the installer script
 
 And double thanks to Innonetlife for funding us and providing server usage
 
-## ETAs
-
-This module probably will not be updated with each Bromite release but I will try to keep it updated at least with major versions.
-
 ## Donations
 
 Donations for Bromite: https://www.bromite.org/#donate 
 
-Donations for me: [here](https://paypal.me/innonetlife)
-
-## Support
-
-Any issues with Bromite itself should be filed in the [Bromite issue tracker](https://github.com/bromite/bromite/issues).
-
-Issues with the module should be filed [here](https://github.com/alexa-v2/magisk-module-installer/issues).
-
-**NEW:** Our XDA thread is [here](https://forum.xda-developers.com/android/software/bromite-magisk-module-t3936964)
-
-**NEW:** Our telegram support group is at https://t.me/inlmagisk
-
-Credit to @topjohnwu for magisk and the magisk installer template.
+Donations for @alexa-v2: [here](https://paypal.me/innonetlife)
 
 ## Compatibility
 
@@ -57,12 +45,28 @@ To see if it does:
 
 From termux, under a non root ($) shell:
 
-- cp /system/framework/framework-res.apk ~
+- `cp /system/framework/framework-res.apk ~`
 
-- aapt d xmltree framework-res.apk res/xml/config_webview_packages.xml
+- `aapt d xmltree framework-res.apk res/xml/config_webview_packages.xml`
 
 The output should contain. `com.android.webview` and not contain a "E:" with a bunch of characters under that.
+
+## Support
+
+Any issues with Bromite itself should be filed in the [Bromite issue tracker](https://github.com/bromite/bromite/issues).
+
+Issues with the module should be filed [here](https://github.com/Magisk-Modules-Repo/bromitewebview/issues).
+
+Our XDA thread is [here](https://forum.xda-developers.com/android/software/bromite-magisk-module-t3936964)
+
+Our telegram support group is at https://t.me/inlmagisk
+
+Credit to @topjohnwu for magisk and the magisk installer template.
 
 ## Other resources
 
 * [Bromite SystemWebView wiki page](https://github.com/bromite/bromite/wiki/Installing-SystemWebView)
+
+# License
+
+[GNU GPL v3](./LICENSE)
